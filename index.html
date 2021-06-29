@@ -16,68 +16,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Exo+2:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Acme&family=Amatic+SC&family=Exo+2:wght@300&display=swap"
       rel="stylesheet"
     />
+
     <title>Dardan's Portfolio</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light"
-      style="border-bottom: 1px solid black"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="color: rgb(28, 155, 155)"
-          >Dardan Gjonbalaj Portfolio</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li> -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                View Projects
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="border-bottom: 1px solid black"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dardan Gjonbalaj Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Me</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Links
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.linkedin.com/in/dardan-gjonbalaj/"
+                      target="_blank"
+                      >Linkedin</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/dardan-gjonbalaj"
+                      target="_blank"
+                      >Github</a
+                    >
+                  </li>
+                  <!-- <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <div class="frontend-container">
       <h1 class="frontend-title">Frontend Practice List</h1>
@@ -257,7 +277,7 @@
                   </p>
                   <p class="card-text">
                     <a
-                      href="https://github.com/dardan-gjonbalaj/backstagetalks-practice"
+                      href="https://github.com/dardan-gjonbalaj/nintendo-practice"
                       target="_blank"
                       >Github</a
                     >
@@ -464,6 +484,102 @@
             </div>
           </div>
         </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              Starbucks
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSeven"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="card mb-3">
+                <img
+                  src="./images/sbucks/starbucks1.png"
+                  class="card-img-top"
+                  alt="..."
+                  id="img"
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">Frontendpractice.com - Starbucks</h5>
+                  <p class="card-text">
+                    A journey into learning absolute positioning and hero
+                    images, alongside using javascript for displaying tabbed
+                    content
+                  </p>
+                  <p class="card-text">
+                    <a
+                      href="https://github.com/dardan-gjonbalaj/starbucks-practice"
+                      target="_blank"
+                      >Github</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="false"
+              aria-controls="collapseEight"
+            >
+              Ableton
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingEight"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="card mb-3">
+                <img
+                  src="./images/ableton/ableton.png"
+                  class="card-img-top"
+                  alt="..."
+                  id="img"
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">Frontendpractice.com - Ableton</h5>
+                  <p class="card-text">
+                    First time really getting to understand front end designs
+                    like headers, absolute positioning pertaining to relative
+                    content, Z-index, and sizing!
+                  </p>
+                  <p class="card-text">
+                    <a
+                      href="https://github.com/dardan-gjonbalaj/starbucks-practice"
+                      target="_blank"
+                      >Github</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- 
       <div class="card mb-3">
@@ -528,6 +644,7 @@
         </div>
       </div> -->
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⇈</button>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
