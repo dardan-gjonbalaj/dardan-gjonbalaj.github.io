@@ -1,7 +1,10 @@
+/* header */
 body {
   background-color: rgba(0, 10, 31, 0.616);
 }
-
+.header {
+  border-bottom: 1px solid black;
+}
 .navbar-brand {
   transition: color 0.3s linear;
   color: rgba(0, 10, 31, 0.596) !important;
@@ -59,6 +62,7 @@ body {
   letter-spacing: 0.5rem;
 }
 
+/* Frontend list */
 .accordion-header {
   border-top: 1px solid rgba(0, 10, 31, 0.596);
 }
@@ -92,11 +96,6 @@ body {
   border: 1px solid black;
   width: 60%;
   height: 100%;
-}
-.card-img-top {
-}
-
-.card {
 }
 
 .card-body {
@@ -163,4 +162,16 @@ body {
 
 #myBtn:hover {
   color: white;
+}
+
+/* projects */
+
+.projects-container {
+  display: block;
+  margin: 0 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#rails-cb {
+  height: 100%;
 }
